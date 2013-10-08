@@ -1,7 +1,7 @@
 <?php $title = 'this is markup: Sass - Post tutorial impressions and LESS comparison'; ?>
-<?php include('../includes/html_header.php'); ?>
+<?php include('includes/html_header.php'); ?>
     <div class="container sub">
-        <?php include('../includes/header.php'); ?>
+        <?php include('includes/header.php'); ?>
         <div class="main" role="main">
             <div class="article">
                 <h2>Sass - Post tutorial impressions and LESS comparison</h2>
@@ -167,15 +167,15 @@ $side: top;
 
             <p><strong>Next steps?</strong> Use Sass in a personal project to gain more understanding of how it works and also take a look at <a href="http://compass-style.org/">Compass</a> as I am hearing a lot of good things about it.</p>
 
-            <p><a href="<?php echo ROOT; ?>blog/">Back to all posts</a></p>
+            <p><a href="/">Back to all posts</a></p>
                 
             </div>
             
-            <?php include('../includes/comments.php'); ?>
+            <?php include('includes/comments.php'); ?>
             
         </div>
-<?php include('../includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?>
     </div>
-<?php include('../includes/scripts.php'); ?>
+<?php include('includes/scripts.php'); ?>
 </body>
 </html>

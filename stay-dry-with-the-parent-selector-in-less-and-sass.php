@@ -1,7 +1,7 @@
 <?php $title = 'this is markup: Structured Learning'; ?>
-<?php include('../includes/html_header.php'); ?>
+<?php include('includes/html_header.php'); ?>
     <div class="container sub">
-        <?php include('../includes/header.php'); ?>
+        <?php include('includes/header.php'); ?>
         <div class="main" role="main">
             <div class="article">
                 <h2>Stay dry with the parent selector in LESS and Sass</h2>
@@ -54,15 +54,15 @@
 
 				<p>It seems obvious looking at it, but what I didn't really understand was that the ampersand character is used as a variable which stores the parent selector, in this case .nav, as its value. This saves us repeating the .nav class in our CSS and also allows us to logically group our styles together. The icing on the cake is that this preprocessor feature is identical in LESS and Sass so we can use it in both our .less and .scss/.sass files.</p>
 
-                <p><a href="<?php echo ROOT; ?>blog/">Back to all posts</a></p>
+                <p><a href="/">Back to all posts</a></p>
                 
             </div>
             
-            <?php include('../includes/comments.php'); ?>
+            <?php include('includes/comments.php'); ?>
             
         </div>
-<?php include('../includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?>
     </div>
-<?php include('../includes/scripts.php'); ?>
+<?php include('includes/scripts.php'); ?>
 </body>
 </html>

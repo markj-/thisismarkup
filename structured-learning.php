@@ -1,7 +1,7 @@
 <?php $title = 'this is markup: Structured Learning'; ?>
-<?php include('../includes/html_header.php'); ?>
+<?php include('includes/html_header.php'); ?>
     <div class="container sub">
-        <?php include('../includes/header.php'); ?>
+        <?php include('includes/header.php'); ?>
         <div class="main" role="main">
             <div class="article">
                 <h2>Structured Learning</h2>
@@ -25,15 +25,15 @@
 
                 <p>Plenty to be learning then!</p>
             
-                <p><a href="<?php echo ROOT; ?>blog/">Back to all posts</a></p>
+                <p><a href="/">Back to all posts</a></p>
                 
             </div>
             
-            <?php include('../includes/comments.php'); ?>
+            <?php include('includes/comments.php'); ?>
             
         </div>
-<?php include('../includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?>
     </div>
-<?php include('../includes/scripts.php'); ?>
+<?php include('includes/scripts.php'); ?>
 </body>
 </html>

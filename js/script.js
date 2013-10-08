@@ -8,12 +8,6 @@
         
         var SITE = {};
         
-        SITE.paths = (function () {
-            return {
-                ROOT: '/thisismarkup/'
-            };
-        }());
-        
         SITE.Portfolio = function (el) {
             this.el = el;
             this.loadedClass = 'loaded';
@@ -178,13 +172,12 @@
         
         SITE.SyntaxHighlighter = function () {
             this.el = $('.prettyprint');
-            this.paths = SITE.paths;
         };
         
         SITE.SyntaxHighlighter.prototype.load = function () {
             var self = this;
             $.ajax({
-                url: self.paths.ROOT + 'js/plugins/prettify.min.js',
+                url: 'js/plugins/prettify.min.js',
                 dataType: 'script',
                 success: function () {
                    prettyPrint();

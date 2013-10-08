@@ -1,7 +1,7 @@
 <?php $title = 'this is markup: Web cam, Y U backwards?'; ?>
-<?php include('../includes/html_header.php'); ?>
+<?php include('includes/html_header.php'); ?>
     <div class="container sub">
-        <?php include('../includes/header.php'); ?>
+        <?php include('includes/header.php'); ?>
         <div class="main" role="main">
             <div class="article">
                 <h2>Web cam, Y U backwards?</h2>
@@ -14,7 +14,7 @@
                 
                 <p>As with most Web Development problems, the answer is only a Google away. I quickly found this <a href="http://html5demos.com/gum-canvas">example of getUserMedia with canvas based effects</a> by <a href="http://twitter.com/rem">Remy Sharp</a> and it seems he does not have the same issue. The solution is CSS3 transforms.</p>
                 
-                <p>We simply apply the following transformation to our video element and magically it now displays the web cam stream in the same manner as Photobooth. <a href="<?php echo ROOT; ?>demos/get-user-media-reverse-stream">See an example of the fix in action</a>.</p>
+                <p>We simply apply the following transformation to our video element and magically it now displays the web cam stream in the same manner as Photobooth. <a href="demos/get-user-media-reverse-stream">See an example of the fix in action</a>.</p>
             
 <pre class="prettyprint linenums">video {
     -webkit-transform: rotateY(180deg) rotate3d(1, 0, 0, 0deg);
@@ -24,15 +24,15 @@
     transform: rotateY(180deg) rotate3d(1, 0, 0, 0deg);
 }</pre>
 
-                <p><a href="<?php echo ROOT; ?>blog/">Back to all posts</a></p>
+                <p><a href="/">Back to all posts</a></p>
                 
             </div>
             
-            <?php include('../includes/comments.php'); ?>
+            <?php include('includes/comments.php'); ?>
             
         </div>
-<?php include('../includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?>
     </div>
-<?php include('../includes/scripts.php'); ?>
+<?php include('includes/scripts.php'); ?>
 </body>
 </html>

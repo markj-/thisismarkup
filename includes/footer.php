@@ -1,6 +1,5 @@
         <div class="footer" role="contentinfo">
-            <p>Full site coming soon</p>
-            <small>Copyright &copy; 2012. All rights reserved.</small>
+            <small>Copyright &copy; 2013. All rights reserved.</small>
             <ul>
                 <li><a href="http://www.twitter.com/mark_jones" class="twitter ir">Twitter</a></li>
                 <li><a href="http://www.last.fm/user/mjswerve" class="lastfm ir">Last Fm</a></li>

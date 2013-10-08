@@ -1,7 +1,7 @@
 <?php $title = 'this is markup: Setting up Jasmine with requirejs'; ?>
-<?php include('../includes/html_header.php'); ?>
+<?php include('includes/html_header.php'); ?>
     <div class="container sub">
-        <?php include('../includes/header.php'); ?>
+        <?php include('includes/header.php'); ?>
         <div class="main" role="main">
             <div class="article">
                 <h2>Setting up Jasmine with requirejs</h2>
@@ -10,7 +10,7 @@
                 
                 <h3>What's the problem?</h3>
                 
-                <p><a href="<?php echo ROOT; ?>demos/jasmine-spec-runner/">Click here to see an example of the Jasmine Spec Runner</a>. I've changed a few paths in my demo, however this is pretty much what it looks like out of the box. My issue is that the code used in this demo (<a href="<?php echo ROOT; ?>demos/jasmine-spec-runner/js/src/Player.js">Player.js</a> for example) looks like this:</p>
+                <p><a href="demos/jasmine-spec-runner/">Click here to see an example of the Jasmine Spec Runner</a>. I've changed a few paths in my demo, however this is pretty much what it looks like out of the box. My issue is that the code used in this demo (<a href="demos/jasmine-spec-runner/js/src/Player.js">Player.js</a> for example) looks like this:</p>
                 
 <pre class="prettyprint linenums">function Player() {};
 
@@ -36,11 +36,11 @@ Player.prototype.play = function(song) {
 
 });</pre>
                 
-<p>... this is not the case. <a href="<?php echo ROOT; ?>demos/amd-module-script-tag">Click here and open your console to see what happens if I attempt to load an AMD Module in a script tag</a> (hint: Uncaught ReferenceError: define is not defined). You wouldn't do this, but rather load the module using requirejs or similar.</p>
+<p>... this is not the case. <a href="demos/amd-module-script-tag">Click here and open your console to see what happens if I attempt to load an AMD Module in a script tag</a> (hint: Uncaught ReferenceError: define is not defined). You wouldn't do this, but rather load the module using requirejs or similar.</p>
 
                 <h3>Our new Spec Runner</h3>
                 
-                <p>What we're going to do, is change the Spec Runner to use requirejs to load our tests and modules. <a href="<?php echo ROOT; ?>demos/jasmine-spec-runner-amd/">Click here to see our new Spec Runner setup with requirejs</a>.</p>
+                <p>What we're going to do, is change the Spec Runner to use requirejs to load our tests and modules. <a href="demos/jasmine-spec-runner-amd/">Click here to see our new Spec Runner setup with requirejs</a>.</p>
                 
                 <p>The main points to take away from the example above, are:</p>
                 
@@ -61,15 +61,15 @@ require([
 ], function () {
     // jasmine init code
 });</pre>
-                <p><a href="<?php echo ROOT; ?>blog/">Back to all posts</a></p>
+                <p><a href="/">Back to all posts</a></p>
                 
             </div>
             
-            <?php include('../includes/comments.php'); ?>
+            <?php include('includes/comments.php'); ?>
             
         </div>
-<?php include('../includes/footer.php'); ?>
+<?php include('includes/footer.php'); ?>
     </div>
-<?php include('../includes/scripts.php'); ?>
+<?php include('includes/scripts.php'); ?>
 </body>
 </html>

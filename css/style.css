@@ -91,7 +91,8 @@ small, .footer p, h2 {
 
 .container {
     background: #fff;
-    width: 280px;
+    max-width: 600px;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
     padding-top: 20px;
@@ -242,10 +243,6 @@ small, .footer p {
 
 /* sub page */
 
-.sub {
-    width: 600px;
-}
-
 .sub h2 {
     padding: 0;
     font-size: 24px;
@@ -275,13 +272,19 @@ small, .footer p {
 }
 
 .blog li {
-    margin-bottom: 10px;
-    padding-bottom: 10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
     border-bottom: 1px dotted #666;
+    font-size: 24px;
+    font-weight: bold;
 }
 
 .blog li:last-child {
     border-bottom: none;
+}
+
+.blog small, .article small {
+  font-size: 16px;
 }
 
 .article {
@@ -294,18 +297,6 @@ small, .footer p {
 
 .article li {
     margin-bottom: 5px;
-}
-
-@media only screen and (max-width: 480px) {
-    .sub {
-        width: 440px;
-    }
-}
-
-@media only screen and (max-width: 320px) {
-    .sub {
-        width: 280px;
-    }
 }
 
 .ir { display: block; border: 0; text-indent: -999em; overflow: hidden; background-color: transparent; background-repeat: no-repeat; text-align: left; direction: ltr; *line-height: 0; }

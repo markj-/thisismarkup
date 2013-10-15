@@ -5,7 +5,7 @@
         <div class="main" role="main">
             <div class="article">
                 <h2>One Year On</h2>
-                <small>posted on <time datetime="2013-10-15" pubdate>8th October 2013</time></small>
+                <small>posted on <time datetime="2013-10-15" pubdate>15th October 2013</time></small>
 
                 <p>What a difference a year makes. A year ago I was working from my flat in East London for my previous employer (<a href="http://bluebit.co.uk">Bluebit</a>) and was eagerly awaiting my first day of my new job at <a href="http://kaldorgroup.com">Kaldor Group</a>. I had expectations about what I would be doing but the real scope of the job was hard to see initially. This was a company mainly working with CSS, a "language" that I had been tiring of. Despite this, a few weeks into my new role I knew I would enjoy this new chapter of my career. This is an attempt to document what I've been up to lately that has made the past year so rewarding.</p>
 

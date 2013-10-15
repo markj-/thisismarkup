@@ -9,7 +9,7 @@
     <meta name="description" content="Portfolio of Front End Developer, Mark Jones">
     <meta name="author" content="Mark Jones">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="css/style.min.css?v=151020131048">
+    <link rel="stylesheet" href="css/style.css?v=151020131059">
     <!-- unminified css for the curious css/style.css -->
     <script src="js/libs/modernizr-custom-2.5.3.min.js"></script>
     <?php include('analytics.php'); ?>

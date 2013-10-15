@@ -253,11 +253,16 @@ small, .footer p {
 .sub h3 {
     margin-top: 30px;
     font-size: 18px;
+    margin-bottom: 0;
 }
 
 .sub .main p {
     padding: 0;
     font-size: 16px;
+}
+
+.sub h3 + p {
+  margin-top: 8px;
 }
 
 .sub .main {

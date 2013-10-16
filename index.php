@@ -4,6 +4,7 @@
         <?php include('includes/header.php'); ?>
         <div class="main blog" role="main">
             <ul>
+                <li><a href="compose-yourself">Compose yourself</a><small>posted on <time datetime="2013-10-16" pubdate>16th October 2013</time></small></li>
                 <li><a href="one-year-on">One Year On</a><small>posted on <time datetime="2013-10-15" pubdate>15th October 2013</time></small></li>
                 <li><a href="stay-dry-with-the-parent-selector-in-less-and-sass">Stay dry with the parent selector in LESS and Sass</a><small>posted on <time datetime="2012-09-21" pubdate>21st September 2012</time></small></li>
                 <li><a href="sass-post-tutorial-impressions">Sass - Post tutorial impressions and LESS comparison</a><small>posted on <time datetime="2012-09-01" pubdate>1st September 2012</time></small></li>

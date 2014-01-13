@@ -1,4 +1,4 @@
-<?php $title = 'this is markup: One Year On'; ?>
+<?php $title = 'this is markup: Compose Yourself'; ?>
 <?php include('includes/html_header.php'); ?>
     <div class="container sub">
         <?php include('includes/header.php'); ?>

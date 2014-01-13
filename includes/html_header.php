@@ -11,7 +11,6 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/style.min.css?v=161020131507">
     <!-- unminified css for the curious css/style.css -->
-    <script src="js/libs/modernizr-custom-2.5.3.min.js"></script>
     <?php include('analytics.php'); ?>
 <body>
     <!--[if lt IE 7]><p class=chromeframe>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p><![endif]-->

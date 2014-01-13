@@ -9,7 +9,7 @@
     <meta name="description" content="Portfolio of Front End Developer, Mark Jones">
     <meta name="author" content="Mark Jones">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" href="css/style.min.css?v=161020131507">
+    <link rel="stylesheet" href="css/style.min.css?v=130120142248">
     <!-- unminified css for the curious css/style.css -->
     <?php include('analytics.php'); ?>
 <body>

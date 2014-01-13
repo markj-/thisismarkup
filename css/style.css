@@ -125,69 +125,6 @@ em {
     font-style: normal;
 }
 
-.js .portfolio {
-    background: url(../images/loading.gif) center center no-repeat;
-    min-height: 140px;
-}
-
-.item {
-    width: 240px;
-    margin: 0 auto 20px auto;
-}
-
-.overlay {
-    width: 220px;
-    height: 130px;
-    background: rgba(0,0,0,0.9);
-    color: #fff;
-    text-align: left;
-    padding: 10px;
-    text-shadow: 1px solid #000;
-}
-
-.lt-ie9 .overlay {
-    background: url(../images/black90.png);
-}
-
-.overlay a {
-    font-weight: bold;
-}
-
-.overlay p {
-    margin: 0 0 5px;
-}
-
-.js .overlay, canvas {
-    position: absolute;
-    top: 0;
-    left: -240px;
-}
-
-.no-js .overlay {
-    position: static;
-    display: block;
-    margin-top: 5px;
-}
-
-.js .overlay {
-    margin-top: 0;
-}
-
-.js .item {
-    display: none;
-    position: relative;
-    overflow: hidden;
-}
-
-canvas {
-    cursor: pointer;
-    left: 0;
-}
-
-.portfolio.loaded {
-    background: none;
-}
-
 small, p {
     font-size: 13px;
     display: block;
@@ -319,13 +256,13 @@ small, .footer p {
 .clearfix { *zoom: 1; }
 
 @media print {
-  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; } 
+  * { background: transparent !important; color: black !important; box-shadow:none !important; text-shadow: none !important; filter:none !important; -ms-filter: none !important; }
   a, a:visited { text-decoration: underline; }
   a[href]:after { content: " (" attr(href) ")"; }
   abbr[title]:after { content: " (" attr(title) ")"; }
-  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } 
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; }
   pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
-  thead { display: table-header-group; } 
+  thead { display: table-header-group; }
   tr, img { page-break-inside: avoid; }
   img { max-width: 100% !important; }
   @page { margin: 0.5cm; }
@@ -403,7 +340,7 @@ pre code {
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums {
   margin: 0 0 0 33px; /* IE indents via margin-left */
-} 
+}
 ol.linenums li {
   padding-left: 12px;
   color: #bebec5;

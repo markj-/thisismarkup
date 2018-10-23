@@ -10,7 +10,6 @@
     "build": "parcel build index.html"
   },
   "dependencies": {
-    "parcel": "^1.10.3",
-    "vendor": "^1.7.0"
+    "parcel": "^1.10.3"
   }
 }

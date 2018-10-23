@@ -1,0 +1,9 @@
+@import url('./vendor/typebase.css');
+
+html {
+  color: #222;
+}
+
+.secondary {
+  color: #777;
+}

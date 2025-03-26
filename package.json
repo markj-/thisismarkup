@@ -2,14 +2,21 @@
   "name": "thisismarkup",
   "version": "2.0.0",
   "description": "markj personal website",
-  "repository": "git@github.com:markj-/thisismarkup.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/markj-/thisismarkup.git"
+  },
   "author": "Mark Jones <mark@thisismarkup.co.uk>",
   "license": "MIT",
   "scripts": {
     "start": "parcel index.html",
     "build": "parcel build index.html"
   },
-  "dependencies": {
-    "parcel": "^1.10.3"
-  }
+  "devDependencies": {
+    "parcel": "^2.14.2"
+  },
+  "bugs": {
+    "url": "https://github.com/markj-/thisismarkup/issues"
+  },
+  "homepage": "https://github.com/markj-/thisismarkup#readme"
 }
